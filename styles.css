@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root {
+    --black: rgb(48, 48, 48);
+    --grey: rgb(152, 152, 152);
+    --white: rgb(254, 254, 254);
+    --font: 'Montserrat', sans-serif;
+    --font-size: 18px;
+    --font-size-h1: 50px;
+    --font-size-h2: 24px;
+    --font-size-copyright: 12px;
+    --name-color: rgb(208, 246, 255);
+    --name-color-hover: rgb(175, 220, 255);
+}
+html {
+    font-family: var(--font);
+    scroll-behavior: smooth;
+    margin: 0%;
+    background-color: var(--white);
+    padding: 0 15%;
+    font-size: var(--font-size);
+    color: var(--black);
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 24px;
+}
+
+nav a {
+    color: var(--grey);
+    position: relative;
+}
+
+a:hover {
+    color: var(--black);
+    transition: 0.5s;
+}
+
+.page {
+    color: var(--black);
+}
+
+#name {
+    background-color: var(--name-color);
+}
+
+#name:hover {
+    background-color: var(--name-color-hover);
+    transition: 0.5s;
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+.dropdown-content {
+    display: block;
+    margin: 0 28px;
+    float: right;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.dropdown-content li {
+    display: block;
+    margin: 5px 0 15px 0;
+}
+.dropdown-content a {
+    color: var(--grey);
+}
+
+.dropdown-content a:hover {
+    color: var(--black);
+} 
+
+.container {
+    padding: 34vh 0 4vh 0;
+}
+
+.work-item {
+    padding: 5% 0;
+}
+
+.work-item:hover {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+
+#red-pet {
+    background-color: rgb(255, 197, 197);
+}
+
+
+#ecommerce {
+    background-color: rgb(197, 255, 238);
+}
+
+#spotify {
+    background-color: rgb(255, 253, 197);
+}
+
+#work li {
+    padding-bottom: 2vh;
+}
+
+#copyright {
+    color: var(--grey);
+    font-size: var(--font-size-copyright);
+}
+.checkbox {
+    opacity: 0;
+    z-index: 5;
+}
+.checkbox , .hamburger-lines{
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    right: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.hamburger-lines .line {
+    display: block;
+    height: 2px;
+    width: 100%;
+    border-radius: 10px;
+    background: var(--black);
+    justify-content: space-between;
+}
+
+.hamburger-lines .line1 {
+    margin-top: 4px;
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.hamburger-lines .line2 {
+    margin: 9px 0;
+    transition: transform 0.2s ease-in-out;
+}
+
+.hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+#hamburger-menu {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: -30vh;
+}
+
+#hamburger-menu li {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#hamburger-menu a {
+    color: var(--grey);
+}
+#hamburger-menu a:hover {
+    color: var(--black);
+    transition: 0.5s;
+}
+
+#hamburger-menu .page {
+    padding-top: 4px;
+    color: var(--black);
+}
+
+input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+}
+
+input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+}
+
+input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+}
+
+@media(min-width: 860px){
+    br {
+       display:none;
+    }
+}
+
+@media(max-width: 860px){
+    html {
+        padding: 0 5%;
+    }
+    .container {
+        padding: 30vh 0 4vh 0;
+    }
+}
+
+@media(min-width: 600px) {
+    .hamburger-lines, .checkbox {
+       display:none;
+    }
+
+}
+    
+@media(max-width: 600px){
+    :root {
+        --font-size: 14px;
+        --font-size-h1: 40px;
+        --font-size-h2: 16px;
+        --font-size-copyright: 10px;
+    }
+    
+    nav ul {
+        margin-top: -30vh;
+    }
+
+
+    #logo {
+        font-size: 18px;
+    }
+
+}
