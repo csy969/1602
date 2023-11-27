@@ -208,13 +208,13 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-45deg);
 }
 
-@media(min-width: 860px){
+@media(width >= 860px){
     br {
        display:none;
     }
 }
 
-@media(max-width: 860px){
+@media(width <= 860px){
     html {
         padding: 0 5%;
     }
@@ -223,14 +223,14 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     }
 }
 
-@media(min-width: 600px) {
+@media(width >= 600px) {
     .hamburger-lines, .checkbox {
        display:none;
     }
 
 }
     
-@media(max-width: 600px){
+@media(width <= 600px){
     :root {
         --font-size: 14px;
         --font-size-h1: 40px;
