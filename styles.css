@@ -208,6 +208,16 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-45deg);
 }
 
+#about-me-page {
+    text-align: left;
+    padding-top: 10%;
+}
+
+#about-me-page p {
+    padding: 3% 0;
+}
+
+
 @media(width >= 860px){
     br {
        display:none;
