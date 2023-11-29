@@ -210,11 +210,11 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
 #about-me-page {
     text-align: left;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #about-me-page p {
-    padding: 3% 0;
+    padding: 2% 0 4% 0;
 }
 
 
