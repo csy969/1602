@@ -216,7 +216,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 #about-me-page p {
     padding: 2% 0 2% 0;
 }
-#about-me-page p:nth-child(2) {
+#about-me-page p:nth-child(4) {
   padding-bottom: 8%;
 }
 
