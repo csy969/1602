@@ -214,9 +214,11 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 }
 
 #about-me-page p {
-    padding: 2% 0 4% 0;
+    padding: 2% 0 2% 0;
 }
-
+#about-me-page p:nth-child(2) {
+  padding-bottom: 8%;
+}
 
 @media(width >= 860px){
     br {
