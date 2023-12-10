@@ -93,7 +93,7 @@ h5 {
 }
 
 h4, h5, p {
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .dropdown-content {
@@ -229,12 +229,13 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
 #about-me-page {
     text-align: left;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 #about-me-page p {
     padding-top: 2%;
 }
+
 #about-me-page p:nth-child(4) {
   padding-bottom: 8%;
 }
@@ -274,6 +275,16 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
 .work-content div {
     margin-bottom: 10vh;
+}
+
+#process-img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+ol li {
+    list-style: inherit;
+    margin: 0 0 6px 0;
 }
 
 @media(width >= 860px){
