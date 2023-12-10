@@ -230,14 +230,14 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     position: absolute;
     width: 100%;
     left: 0px;
-    height: 80vh;
+    height: 75vh;
     top: 10vh;
 }
 .work-title h1 {
-    transform: translateY(280%);
+    transform: translateY(24vh);
 }
 .work-title h3 {
-    transform: translateY(760%);
+    transform: translateY(26vh);
 }
 
 @media(width >= 860px){
@@ -278,13 +278,5 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
     #logo {
         font-size: 18px;
-    }
-
-    .work-title h1 {
-        transform: translateY(400%);
-    }
-    
-    .work-title h3 {
-        transform: translateY(560%);
     }
 }
