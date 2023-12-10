@@ -249,6 +249,28 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: translateY(26vh);
 }
 
+.work-content {
+    text-align: left;
+}
+
+.work-content h5 {
+    font-weight: bolder;
+}
+
+.overview {
+    margin-top: 90vh;
+}
+
+#overview-img {
+    width: 200px;
+    float: right;
+    padding-left: 10%;
+}
+
+.work-content div {
+    margin-bottom: 10vh;
+}
+
 @media(width >= 860px){
     br {
        display:none;
