@@ -228,10 +228,10 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 }
 
 #about-me-page p {
-    padding: 3% 0 1% 0;
+    padding-top: 2%;
 }
 #about-me-page p:nth-child(4) {
-  padding-bottom: 15%;
+  padding-bottom: 8%;
 }
 
 .work-title {
