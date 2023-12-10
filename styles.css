@@ -7,6 +7,7 @@
     --font-size: 18px;
     --font-size-h1: 50px;
     --font-size-h2: 24px;
+    --font-size-h3: 20px;
     --font-size-copyright: 12px;
     --name-color: rgb(208, 246, 255);
     --name-color-hover: rgb(175, 220, 255);
@@ -75,6 +76,10 @@ h1 {
 
 h2 {
     font-size: var(--font-size-h2);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
 }
 
 .dropdown-content {
@@ -220,6 +225,21 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   padding-bottom: 15%;
 }
 
+.work-title {
+    background: rgb(255, 197, 197);
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    height: 90vh;
+    top: 0px;
+}
+.work-title h1 {
+    transform: translateY(400%);
+}
+.work-title h3 {
+    transform: translateY(960%);
+}
+
 @media(width >= 860px){
     br {
        display:none;
@@ -247,6 +267,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         --font-size: 14px;
         --font-size-h1: 40px;
         --font-size-h2: 16px;
+        --font-size-h3: 16px;
         --font-size-copyright: 10px;
     }
     
@@ -259,4 +280,11 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         font-size: 18px;
     }
 
+    .work-title h1 {
+        transform: translateY(520%);
+    }
+    
+    .work-title h3 {
+        transform: translateY(1330%);
+    }
 }
