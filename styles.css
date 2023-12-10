@@ -8,6 +8,7 @@
     --font-size-h1: 50px;
     --font-size-h2: 24px;
     --font-size-h3: 20px;
+    --font-size-h4: 16px;
     --font-size-copyright: 12px;
     --name-color: rgb(208, 246, 255);
     --name-color-hover: rgb(175, 220, 255);
@@ -80,6 +81,14 @@ h2 {
 
 h3 {
     font-size: var(--font-size-h3);
+}
+
+h4 {
+    font-size: var(--font-size-h4);
+}
+
+h4, p {
+    line-height: 1.6;
 }
 
 .dropdown-content {
