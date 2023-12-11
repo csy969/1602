@@ -43,3 +43,34 @@ function myFunction5() {
         }
     }, 200);
 }
+
+
+var persona = document.getElementById("persona");
+var persona_btn = document.getElementById("persona-btn");
+var empathy = document.getElementById("empathy");
+var empathy_btn = document.getElementById("empathy-btn");
+var asis = document.getElementById("asis");
+var asis_btn = document.getElementById("asis-btn");
+var span = document.getElementsByClassName("close");
+
+for (var i = 0; i < span.length; i++){
+    var s = span[i];
+    s.onclick = function() { 
+        persona.style.display = "none";
+        empathy.style.display = "none";
+        asis.style.display = "none";
+    }
+ };
+
+
+persona_btn.onclick = function() { 
+    persona.style.display = "block";
+}
+
+empathy_btn.onclick = function() { 
+    empathy.style.display = "block";
+}
+
+asis_btn.onclick = function() { 
+    asis.style.display = "block";
+}
