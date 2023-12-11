@@ -288,6 +288,83 @@ ol li {
     margin: 0 0 6px 0;
 }
 
+.image-window {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    background-color: rgb(240, 240, 240);
+    border-style: solid;
+    border-radius: 16px;
+    border-color: var(--grey);
+    border-width: 1px;
+}
+
+#persona {
+    padding: 1vh 4vh; 
+    left: 16vw;
+    top: 8vh;
+    width: 60vw; 
+}
+
+#empathy {
+    padding: 1vh 4vh; 
+    left: 24vw;
+    top: 4vh;
+    width: 44vw; 
+}
+
+#asis {
+    padding: 1vh 4vh; 
+    left: 16vw;
+    top: 8vh;
+    width: 60vw; 
+}
+
+.image-window img {
+    display: block;
+}
+  
+#persona img {
+    width: 60vw;
+}
+
+#empathy img {
+    width: 44vw;
+}
+
+#asis img {
+    width: 60vw;
+}
+  
+.image-window div {
+    margin: 0px;
+    display: block;
+    text-align: center;
+    color: var(--black);
+}
+
+.close {
+    float: right;
+    right: 35px;
+    color: var(--black);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+.close:hover, .close:focus {
+  cursor: pointer;
+}
+
+h4 a {
+    color: rgb(255, 132, 132);
+}
+
+h4 a:hover {
+    cursor: pointer;
+    color: rgb(197, 36, 36);
+}
+
 @media(width >= 860px){
     br {
        display:none;
