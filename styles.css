@@ -248,6 +248,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     left: 0px;
     height: 75vh;
     top: 10vh;
+    z-index: -1;
 }
 .work-title h1 {
     transform: translateY(24vh);
