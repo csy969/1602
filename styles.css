@@ -365,6 +365,27 @@ h4 a:hover {
     color: rgb(197, 36, 36);
 }
 
+#absurd-img, #prioritization-img {
+    width: 68%;
+    margin-left: 18%;
+}
+
+#big-img {
+    width: 80%;
+    margin-left: 10%;
+}
+  
+#tobe {
+    padding: 1vh 4vh; 
+    left: 16vw;
+    top: 10vh;
+    width: 60vw; 
+}
+
+#tobe img {
+    width: 60vw;
+}
+
 @media(width >= 860px){
     br {
        display:none;
