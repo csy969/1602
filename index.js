@@ -52,6 +52,8 @@ var empathy_btn = document.getElementById("empathy-btn");
 var asis = document.getElementById("asis");
 var asis_btn = document.getElementById("asis-btn");
 var span = document.getElementsByClassName("close");
+var asis_btn2 = document.getElementById("asis-btn2");
+var tobe_btn = document.getElementById("tobe-btn");
 
 for (var i = 0; i < span.length; i++){
     var s = span[i];
@@ -59,6 +61,7 @@ for (var i = 0; i < span.length; i++){
         persona.style.display = "none";
         empathy.style.display = "none";
         asis.style.display = "none";
+        tobe.style.display = "none";
     }
  };
 
@@ -73,4 +76,12 @@ empathy_btn.onclick = function() {
 
 asis_btn.onclick = function() { 
     asis.style.display = "block";
+}
+
+asis_btn2.onclick = function() { 
+    asis.style.display = "block";
+}
+
+tobe_btn.onclick = function() { 
+    tobe.style.display = "block";
 }
