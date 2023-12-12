@@ -386,6 +386,26 @@ h4 a:hover {
     width: 60vw;
 }
 
+#onboarding-lo {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#clinic-lo {
+    width: 60%;
+    margin-left: 20%;
+}
+
+#log-lo {
+    width: 100%;
+    margin-left: 0%;
+}
+
+#onboarding-mid, #clinic-mid, #log-mid {
+    width: 80%;
+    margin-left: 10%;
+}
+
 @media(width >= 860px){
     br {
        display:none;
