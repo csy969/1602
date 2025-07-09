@@ -366,6 +366,10 @@ ol li {
   cursor: pointer;
 }
 
+mark {
+    background-color: rgb(255, 253, 197);
+}
+
 #yellowBody h4 a:hover {
     cursor: pointer;
     color: rgb(205 146 24);
