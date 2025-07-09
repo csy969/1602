@@ -131,6 +131,7 @@ h4, h5, p {
 
 .work-item {
     padding: 5% 0;
+    border-radius: 16px;
 }
 
 .work-item:hover {
