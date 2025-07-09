@@ -103,12 +103,14 @@ h4, h5, p {
 
 .dropdown-content {
     display: block;
-    margin: 0 28px;
+    margin: -1px 8px;
     float: right;
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s;
     background: var(--white);
+    adding: 0px 20px;
+    border-radius: 0px 0px 16px 16px;
 }
 
 .dropdown-content li {
