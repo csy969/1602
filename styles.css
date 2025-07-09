@@ -103,7 +103,7 @@ h4, h5, p {
 
 .dropdown-content {
     display: block;
-    margin: -1 28px;
+    margin: 0 28px;
     float: right;
     text-align: center;
     opacity: 0;
