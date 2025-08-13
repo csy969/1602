@@ -379,6 +379,15 @@ mark {
     color: rgb(232 201 46);
 }
 
+#blueBody h4 a:hover {
+    cursor: pointer;
+    color: rgb(29, 51, 84);
+}
+
+#blueBody h4 a {
+    color: rgb(70,117,153);
+}
+
 h4 a {
     color: rgb(255, 132, 132);
 }
