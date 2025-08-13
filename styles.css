@@ -13,7 +13,7 @@
     --font-size-copyright: 12px;
     --name-color: rgb(208, 246, 255);
     --name-color-hover: rgb(175, 220, 255);
-}
+} 
 html {
     font-family: var(--font);
     scroll-behavior: smooth;
