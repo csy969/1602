@@ -500,5 +500,5 @@ h4 a:hover {
 
 #myBtn:hover {
   color: var(--black); /* Add a dark-grey background on hover */
-    border-color: var(--black);
+  border-color: var(--black);
 }
