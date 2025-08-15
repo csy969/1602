@@ -490,17 +490,17 @@ h4 a:hover {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: var(--white); /* Set a background color */
-  color: var(--grey); /* Text color */
+  color: rgb(200, 200, 200); /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   font-size: 18px; /* Increase font size */
   border-style: solid;
-  border-color: var(--grey);
+  border-color: rgb(200, 200, 200);
   padding: 25px;
   border-radius: 30px;
   border-width: 2px;
 }
 
 #myBtn:hover {
-  color: rgb(200, 200, 200); /* Add a dark-grey background on hover */
-  border-color: rgb(200, 200, 200);
+  color: rgb(230, 230, 230); /* Add a dark-grey background on hover */
+  border-color: rgb(230, 230, 230);
 }
