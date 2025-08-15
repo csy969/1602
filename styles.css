@@ -484,8 +484,8 @@ h4 a:hover {
 #myBtn { 
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  bottom: 40px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
   z-index: 3; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -495,8 +495,8 @@ h4 a:hover {
   font-size: 18px; /* Increase font size */
   border-style: solid;
   border-color: rgb(200, 200, 200);
-  padding: 25px;
-  border-radius: 30px;
+  padding: 12px;
+  border-radius: 12px;
   border-width: 2px;
 }
 
