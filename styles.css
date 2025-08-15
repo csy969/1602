@@ -69,10 +69,11 @@ a:hover {
 
 #name {
     background-color: var(--name-color);
+    border-radius: 16px;
 }
 
 #name:hover {
-    background-color: var(--name-color-hover);
+/*     background-color: var(--name-color-hover); */
     transition: 0.5s;
 }
 
