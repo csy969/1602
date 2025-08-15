@@ -489,6 +489,7 @@ h4 a:hover {
   z-index: 3; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
+  height: 52px;
   background-color: var(--white); /* Set a background color */
   color: rgb(200, 200, 200); /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
