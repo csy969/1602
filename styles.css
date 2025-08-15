@@ -69,7 +69,8 @@ a:hover {
 
 #name {
     background-color: var(--name-color);
-    border-radius: 16px;
+    padding: 2px 12px 4px 12px;
+    border-radius: 32px;
 }
 
 #name:hover {
